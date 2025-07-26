@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 # Load from GitHub Secrets (via GitHub Actions env vars)
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-GAS_WEBHOOK_URL = os.getenv("")
+GAS_WEBHOOK_URL = os.getenv("GAS_WEBHOOK_URL")
 
 # Simple help command
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
