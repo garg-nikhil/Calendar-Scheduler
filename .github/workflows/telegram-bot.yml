@@ -29,4 +29,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run bot
-        run: python bot/bot.py
+        run: python bot.py
