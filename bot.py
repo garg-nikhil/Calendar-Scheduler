@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Load from GitHub Secrets (via GitHub Actions env vars)
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 GAS_WEBHOOK_URL = os.getenv("GAS_WEBHOOK_URL")
 
 # Simple help command
